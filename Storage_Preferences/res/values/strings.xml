@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ALT Storage Preferences</string>
+	<string-array name="mylabels">
+	    <item>Item 1</item>
+		<item>Item 2</item>
+	</string-array>
+	<string-array name="myvalues">
+	    <item>item1</item>
+		<item>item2</item>
+	</string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen android:title="Ecran 1">
+		<PreferenceCategory 
+		    android:title="Category 1">	
+			<EditTextPreference 
+				android:title="EditText"
+				android:summary="EditText" 
+				android:key="edittext" />
+		</PreferenceCategory>
+		<PreferenceCategory  
+			    android:title="Category 2">
+			<CheckBoxPreference 
+				android:title="CheckBox" 
+				android:key="check"
+				android:summaryOn="On"
+				android:summaryOff="Off" />
+		</PreferenceCategory>
+	</PreferenceScreen>	
+	<PreferenceScreen android:title="Ecran 1">
+			<ListPreference 
+				android:title="List" 
+				android:key="list" 
+				android:summary="List summary"
+				android:entries="@array/mylabels"
+				android:entryValues="@array/myvalues" />
+	</PreferenceScreen>	
+</PreferenceScreen>

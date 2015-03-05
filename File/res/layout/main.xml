@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_read_internal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read internal" />
+
+        <Button
+            android:id="@+id/btn_write_internal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write internal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_read_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read external" />
+
+        <Button
+            android:id="@+id/btn_write_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write external" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
