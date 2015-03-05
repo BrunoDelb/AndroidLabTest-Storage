@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ALT Storage Resource Array</string>
+    <string-array name="my_array">
+        <item>My item 1</item>
+        <item>My item 2</item>
+        <item>My item 3</item>
+        <item>My item 4</item>
+        <item>My item 5</item>
+    </string-array>
+</resources>
